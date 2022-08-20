@@ -1,0 +1,269 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+aside{
+	background-color: #1a1a1a;
+	height: 100vh;
+	width: 26%;
+	position: fixed;
+	float: left;
+}
+.user img{
+	margin-left: 6rem;
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    object-fit: cover;
+    margin-bottom: -1rem;
+    border: 7px solid  orange;
+}
+.user .name{
+	margin-left: 4rem;
+    font-size: 2.5rem;
+    font-family: cursive;
+    color:#fff;
+}
+.navbar{
+	margin: 20px -25px;
+}
+.navbar ul{
+	list-style: none;
+}
+.navbar ul li i{
+	margin-left: -150px;
+	font-size: 20px;
+}
+.navbar ul li a{
+	opacity: 7;
+	display: block;
+	padding: 1rem;
+	margin: 10px 20px;
+	width: 230px;
+	height: 30px;
+	font-size: 25px;
+	background: #333;
+	color: white;
+	border-radius: 10px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+.navbar ul li a p{
+	margin-top: -30px;
+	margin-left: 20px;
+	font-size: 27px;
+	font-family: monospace;
+}
+.navbar ul li a:hover{
+	background-color: yellow;
+	color: black;
+}
+section{
+	background: #282828;
+	width: 70%;
+	/*overflow-x: hidden;*/
+	overflow: hidden;
+	padding-left: 30%;
+}
+.home{
+	margin-left: 300px;
+}
+.home h2{
+	margin-left: 2rem;
+	margin-top: 12rem;
+	font-family: cursive;
+	color: white;
+	font-size: 30px;
+}
+.home h1{
+	font-family: cursive;
+	font-size: 50px;
+	margin-top: -30px;
+	margin-left: -20px;
+	color: orange;
+}
+.home h3{
+	margin-left: -180px;
+	margin-top: -45px;
+	font-family: cursive;
+	color: white;
+	font-size: 25px;
+}
+.home .download{
+	margin-top: -20px;
+}
+.home .download a{
+	background-color: orange;
+	margin-left: 3%;
+	border: 2px solid orange;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: cursive;
+	padding: 10px 20px;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.home .download a:hover{
+	border: 2px solid #dc3545;
+	background-color: #dc3545;
+	color: white;
+}
+.home .social-media a{
+	padding: 0px 20px;
+	border: none;
+	color: white;
+	background-color: transparent;
+}
+.home .social-media i{
+	margin-top: 40px;
+	margin-left: 3px;
+	font-size: 33px;
+}
+.home .social-media i:hover{
+	color: orange;
+}
+.about{
+	display: flex;
+	height: 100px;
+	margin: 190px 200px;
+	width: 700px;
+}
+.about h1{
+	width: 500px;
+	margin-left: 60px;
+	margin-top: -10px;
+	color: yellow;
+	font-family: cursive;
+	font-size: 50px;
+}
+.about-para{
+	margin-top: 50px;
+	padding: 20px 20px;
+	color: white;
+	width: 700px;
+	height: 480px;
+	text-align: center;
+	display: flex;
+	margin-left: -520px;
+	font-family: cursive;
+	font-size: 23px;
+}
+.main-box{
+	padding-top: 100px;
+}
+.box{
+	margin-left: 10px;
+	margin-top: 20px;
+	height: 170px;
+	width: 70%;
+	display: flex;
+}
+.box1{
+	margin-left: 10px;
+	margin-top: 20px;
+	height: 170px;
+	width: 70%;
+	display: flex;
+}
+.item{
+	text-align: center;
+	border-radius: 10px;
+	font-family: cursive;
+	width: 39%;
+	height: 90%;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: grey;
+	margin-left: 10px;
+	padding: 10px 30px;
+}
+.item span{
+	color: maroon;
+	font-size: 40px;
+}
+.Education h1{
+	width: 500px;
+	margin-left: 250px;
+	margin-top: 500px;
+	color: yellow;
+	font-family: cursive;
+	font-size: 50px;
+}
+.Education-Timeline{
+	position: relative;
+	width: 60%;
+	height: 400px;
+	margin-top: -20px;
+	left: 15%;
+	/*border: 2px solid white;*/
+}
+.timeline-box i{
+	color: orange;
+	font-size: 40px;
+	margin: 0px -20px;
+}
+.timeline-box{
+	position: relative;
+	width: 45%;
+	height: 150px;
+	/*border: 3px solid orange;*/
+	border-left: 3px solid orange;
+	float: right;
+	margin-top: 20px;
+}
+.timeline-box p{
+	color: white;
+	font-size: 18px;
+	font-family: cursive;
+	margin: 10px 30px;
+}
+.timeline-box span{
+	font-family: cursive;
+	background-color: orange;
+	padding: 5px 20px;
+	font-size: 20px;
+	color: black;
+	margin: 20px 30px;
+	border-radius: 20px;
+}
+.Contact{
+	/*border: 2px solid white;*/
+	height: 400px;
+}
+.Contact h1{
+	width: 500px;
+	margin-left: 250px;
+	margin-top: 200px;
+	color: yellow;
+	font-family: cursive;
+	font-size: 50px;
+}
+.Contact input{
+	width: 50%;
+	height: 20px;
+	margin: 20px 200px;
+}
+.Contact input[type='text'], input[type='email']{
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	color: whitesmoke;
+	font-size: 15px;
+	outline: none;
+}
+.Contact .submit{
+	font-size: 20px;
+	margin: 40px 350px;
+}
+.Contact .submit a{
+	background: orange;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+	font-family: cursive;
+	font-weight: bold;
+	border-radius: 20px;
+}
